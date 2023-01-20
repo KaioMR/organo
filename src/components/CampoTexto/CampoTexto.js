@@ -1,8 +1,10 @@
-export const CampoTexto = () => {
+import './CampoTexto.css'
+
+export const CampoTexto = (props) => {
     return(
-        <div className>
-            <label>Nome</label>
-            <input></input>
+        <div className="campo-texto">
+            <label>{props.label}</label>
+            <input placeholder={props.placeholder}/>
         </div>
     )
 }
