@@ -8,7 +8,7 @@ export const Banner = () => {
     É semelhante em aparência ao HTML mas não é HTML.
     */
     return (
-        <header className="banner">
+        <header class="banner">
             <img src="/imagens/banner.png" alt="Banner principal do site"></img>
         </header>
     )

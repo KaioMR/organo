@@ -3,7 +3,7 @@ import CampoTexto from '../CampoTexto';
 
 export const Formulario = () => {
     return (
-        <section className="formulario">
+        <section class="formulario">
             <form>
                 <h2>Preencha os dados</h2>
                 <CampoTexto label="Nome" placeholder="Digite seu nome" />
