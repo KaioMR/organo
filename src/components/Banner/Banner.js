@@ -1,6 +1,6 @@
 import './Banner.css'
 
-function Banner() {
+export const Banner = () => {
     /*
     JSX é uma extensão React para a sintaxe da linguagem JavaScript 
     que fornece uma maneira de estruturar a renderização de componentes 
@@ -13,4 +13,3 @@ function Banner() {
         </header>
     )
 }
-export default Banner;
